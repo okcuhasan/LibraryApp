@@ -1,0 +1,29 @@
+﻿@model EntityFrameworkMvc.Models.AuthorProfile
+
+@{
+
+}
+
+<form method="post" action="Update">
+    <input type="hidden" asp-for="AuthorProfileId" />
+    <div>
+        <h3>Update Author Profile</h3>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Social Media</label>
+        <input asp-for="SocialMedia" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="SocialMedia" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Web Site</label>
+        <input asp-for="WebSite" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="WebSite" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Author Id</label>
+        <input asp-for="AuthorId" type="text" class="form-control" id="exampleFormControlInput1" readonly>
+        <span asp-validation-for="AuthorId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Update Author Profile</button>
+</form>

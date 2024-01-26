@@ -1,0 +1,35 @@
+﻿@model EntityFrameworkMvc.Models.ApplicationUser
+
+
+<form method="post" action="Register">
+
+        <div class="form-group">
+        <label for="exampleFormControlInput1">Name</label>
+        <input asp-for="Name" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+        <label for="exampleFormControlInput1">Password</label>
+        <input asp-for="Password" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="Password" class="text-danger"></span>
+
+        <div class="form-floating mb-2">
+            <label for="isDurumuSelect"></label>
+            <select id="isDurumuSelect" asp-for="Role" class="form-control">
+                <option value="">Rol Seç:</option>
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </div>
+
+        </div>
+            <div>
+                <div>
+                    <button type="submit" class="btn btn-primary mt-3" asp-controller="Register" asp-action="Register">Register</button>
+                </div>
+            </div>
+</form>
+
+
+

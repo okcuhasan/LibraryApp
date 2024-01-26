@@ -1,0 +1,23 @@
+﻿@model EntityFrameworkMvc.Models.AuthorPublisher
+
+@{
+
+}
+
+<form method="post" action="Create">
+    <div>
+        <h3>Create Author Publisher</h3>
+    </div>
+    <div class="form-group">
+        <label asp-for="AuthorId" class="control-label">Author Name</label>
+        <select asp-for="AuthorId" asp-items="@(new SelectList(ViewBag.Authors, "AuthorId", "AuthorName"))" class="form-control"></select>
+        <span asp-validation-for="AuthorId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="PublisherId" class="control-label">Publisher Name</label>
+        <select asp-for="PublisherId" asp-items="@(new SelectList(ViewBag.Publishers, "PublisherId", "PublisherName"))" class="form-control"></select>
+        <span asp-validation-for="PublisherId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Add Author Publisher</button>
+</form>

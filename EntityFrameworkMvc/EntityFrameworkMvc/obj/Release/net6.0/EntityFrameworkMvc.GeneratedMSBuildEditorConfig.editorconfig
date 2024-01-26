@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EntityFrameworkMvc
+build_property.RootNamespace = EntityFrameworkMvc
+build_property.ProjectDir = C:\Users\90554\source\repos\EntityFrameworkMvc\EntityFrameworkMvc\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\90554\source\repos\EntityFrameworkMvc\EntityFrameworkMvc
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/AuthorProfile/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yUHJvZmlsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/AuthorProfile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yUHJvZmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/AuthorProfile/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yUHJvZmlsZVxVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/AuthorPublisher/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yUHVibGlzaGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/AuthorPublisher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yUHVibGlzaGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Author/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Author/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Author/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Book/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Book/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Book/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xVcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Information/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5mb3JtYXRpb25cU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Publisher/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Publisher/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Publisher/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVibGlzaGVyXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Register/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Shared/LoginLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExvZ2luTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/90554/source/repos/EntityFrameworkMvc/EntityFrameworkMvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-wzalk7tx1w

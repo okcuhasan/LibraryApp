@@ -1,0 +1,36 @@
+﻿@model EntityFrameworkMvc.Models.Book
+
+@{
+
+}
+
+<form method="post" action="Update">
+    <input type="hidden" asp-for="BookId" />
+    <div>
+        <h3>Update Book</h3>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Book Name</label>
+        <input asp-for="BookName" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="BookName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Book Description</label>
+        <input asp-for="BookDescription" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="BookDescription" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Book Year Of Publication</label>
+        <input asp-for="BookYearOfPublication" type="date" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="BookYearOfPublication" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AuthorId" class="control-label"></label>
+        <select asp-for="AuthorId" asp-items="@(new SelectList(ViewBag.Authors, "AuthorId", "AuthorName"))" class="form-control"></select>
+        <span asp-validation-for="AuthorId" class="text-danger"></span>
+    </div>
+
+
+
+    <button type="submit" class="btn btn-primary mt-3">Update Book</button>
+</form>

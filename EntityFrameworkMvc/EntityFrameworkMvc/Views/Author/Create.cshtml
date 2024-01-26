@@ -1,0 +1,34 @@
+﻿@model EntityFrameworkMvc.Models.Author
+
+@{
+
+}
+
+<form method="post" action="Create">
+    <div>
+        <h3>Create Author</h3>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Author Name</label>
+        <input asp-for="AuthorName" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="AuthorName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Author Birth Date</label>
+        <input asp-for="AuthorBirthDate" type="datetime-local" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="AuthorBirthDate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Author Birth Place</label>
+        <input asp-for="AuthorsBirthPlace" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="AuthorsBirthPlace" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlInput1">Author's School</label>
+        <input asp-for="AuthorsSchool" type="text" class="form-control" id="exampleFormControlInput1">
+        <span asp-validation-for="AuthorsSchool" class="text-danger"></span>
+    </div>
+    
+
+    <button type="submit" class="btn btn-primary mt-3">Add Author</button>
+</form>

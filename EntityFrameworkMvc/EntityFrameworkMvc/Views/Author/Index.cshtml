@@ -1,0 +1,62 @@
+﻿@model List<EntityFrameworkMvc.Models.Author>
+
+@{
+
+}
+
+<script src="~/js/site.js"></script>
+
+<form id="authorIndexForm">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold">Author List</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            </div>
+            <div id="table-scroll" class="table-responsive">
+                <table id="veriTable" class="table table rounded" width="100%" cellspacing="0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Author ID</th>
+                            <th>Author Name</th>
+                            <th>Author Birth Date</th>
+                            <th>Author Birth Place</th>
+                            <th>Author's School</th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if(Model != null)
+                        {
+                            foreach(var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.AuthorId</td>
+                                    <td>@item.AuthorName</td>
+                                    <td>@item.AuthorBirthDate</td>
+                                    <td>@item.AuthorsBirthPlace</td>
+                                    <td>@item.AuthorsSchool</td>
+                                    <td>
+                                        <button type="submit" class="btn btn-primary" asp-action="Update" asp-controller="Author" asp-route-id="@item.AuthorId">Update Author</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger" asp-action="Delete" asp-controller="Author" onclick="deleteAuthorFunction('@item.AuthorId')">Delete Author</button>
+                                    </td>
+                                    <td class="btn btn-secondary">
+                                        <a href='@Url.Action("Create","AuthorProfile",new {id = item.AuthorId})')'>
+                                            Create Author Profile By Author
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</form>

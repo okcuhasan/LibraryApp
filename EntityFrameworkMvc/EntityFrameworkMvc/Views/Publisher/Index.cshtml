@@ -1,0 +1,50 @@
+﻿@model List<EntityFrameworkMvc.Models.Publisher>
+
+@{
+
+}
+
+
+<script src="~/js/deletePublisher.js"></script>
+
+<form id="publisherIndexForm">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold">Publisher List</h6>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            </div>
+            <div id="table-scroll" class="table-responsive">
+                <table id="veriTable" class="table table rounded" width="100%" cellspacing="0">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Publisher ID</th>
+                            <th>Publisher Name</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @if (Model != null)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.PublisherId</td>
+                                    <td>@item.PublisherName</td>
+                                    <td>
+                                        <button type="submit" class="btn btn-primary" asp-action="Update" asp-controller="Publisher" asp-route-id="@item.PublisherId">Update Publisher</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger" asp-action="Delete" asp-controller="Publisher" onclick="deletePublisherFunction('@item.PublisherId')">Delete Publisher</button>
+                                    </td>
+                                </tr>
+                            }
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</form>

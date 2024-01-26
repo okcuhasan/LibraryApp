@@ -1,0 +1,45 @@
+﻿@model EntityFrameworkMvc.ViewModels.InformationVM
+
+<h2>Search Authors</h2>
+
+<form asp-action="Search" method="post">
+    <div class="form-group">
+        <label for="authorName">Author Name:</label>
+        <input type="text" class="form-control" id="authorName" name="authorName" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+@if (Model != null)
+{
+    <h4>Author informations</h4>
+    foreach (var item in Model.AuthorData)
+    {
+        <td>@item.AuthorId</td>
+        <td>@item.AuthorName</td>
+        <td>@item.AuthorBirthDate</td>
+        <td>@item.AuthorsBirthPlace</td>
+        <td>@item.AuthorsSchool</td>
+    }
+    <h4>Author profile informations</h4>
+    foreach (var item in Model.AuthorProfileData)
+    {
+        <td>@item.AuthorProfileId</td>
+        <td>@item.SocialMedia</td>
+        <td>@item.WebSite</td>
+    }
+    <h4>Author book informations</h4>
+    foreach (var item in Model.BookData)
+    {
+        <td>@item.BookId</td>
+        <td>@item.BookName</td>
+        <td>@item.BookDescription</td>
+        <td>@item.BookYearOfPublication</td>
+    }
+    <h4>Author publisher informations</h4>
+    foreach (var item in Model.AuthorPublisherData)
+    {
+        <td>@item.AuthorId</td>
+        <td>@item.PublisherId</td>
+    }
+}
